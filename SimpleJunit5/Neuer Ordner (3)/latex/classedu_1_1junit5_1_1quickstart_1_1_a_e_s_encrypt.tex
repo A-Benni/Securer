@@ -1,0 +1,165 @@
+\hypertarget{classedu_1_1junit5_1_1quickstart_1_1_a_e_s_encrypt}{}\doxysection{edu.\+junit5.\+quickstart.\+AESEncrypt Class Reference}
+\label{classedu_1_1junit5_1_1quickstart_1_1_a_e_s_encrypt}\index{edu.junit5.quickstart.AESEncrypt@{edu.junit5.quickstart.AESEncrypt}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classedu_1_1junit5_1_1quickstart_1_1_a_e_s_encrypt_afe6d2fa06d8a65c3fd8b5a258a3fc3a6}{AESEncrypt}} (String block\+Mode, String padding)
+\item 
+Cipher \mbox{\hyperlink{classedu_1_1junit5_1_1quickstart_1_1_a_e_s_encrypt_aa9a8481d8289aa084a75f2d22625f377}{get\+Cipher}} ()  throws No\+Such\+Padding\+Exception, No\+Such\+Algorithm\+Exception, No\+Such\+Provider\+Exception 
+\item 
+Secret\+Key \mbox{\hyperlink{classedu_1_1junit5_1_1quickstart_1_1_a_e_s_encrypt_a2c25778f01c5dda7e5f271329f2337b3}{get\+Key}} ()  throws No\+Such\+Provider\+Exception, No\+Such\+Algorithm\+Exception 
+\item 
+String \mbox{\hyperlink{classedu_1_1junit5_1_1quickstart_1_1_a_e_s_encrypt_a41bdd8f531b51b7854bc0db2deb5a82b}{to\+Hex}} (String arg)
+\item 
+String \mbox{\hyperlink{classedu_1_1junit5_1_1quickstart_1_1_a_e_s_encrypt_aeec493ec627ed5647b7b81ddd41ea8a9}{decode\+UTF8}} (byte\mbox{[}$\,$\mbox{]} bytes)
+\item 
+byte\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classedu_1_1junit5_1_1quickstart_1_1_a_e_s_encrypt_aa0d3726e150e3cf3a7392502c601f2bf}{encode\+UTF8}} (String string)
+\item 
+byte\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classedu_1_1junit5_1_1quickstart_1_1_a_e_s_encrypt_a7feaf630d6d8d87d6c7581e9996ade3c}{Encrypt}} (String text, Secret\+Key key)  throws Exception 
+\item 
+byte\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classedu_1_1junit5_1_1quickstart_1_1_a_e_s_encrypt_a4e9a542022db8c56e9bb3790b3ab7dd5}{Decrypt}} (byte\mbox{[}$\,$\mbox{]} output, Secret\+Key key)  throws Exception 
+\item 
+void \mbox{\hyperlink{classedu_1_1junit5_1_1quickstart_1_1_a_e_s_encrypt_a2621f8ad465862eaab3eaf250cc3ae05}{test}} (String text)  throws Exception 
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classedu_1_1junit5_1_1quickstart_1_1_a_e_s_encrypt_a0b30f4daa64b11dd23cf6bde26743bce}\label{classedu_1_1junit5_1_1quickstart_1_1_a_e_s_encrypt_a0b30f4daa64b11dd23cf6bde26743bce}} 
+static void {\bfseries main} (String\mbox{[}$\,$\mbox{]} args)  throws Exception 
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Klasse um eine Text-\/\+Datei mit AES Verschlüsslungsverfahren, und Verschiedene block\+Mode wie (ECB , CBC , CTS ), und viersciedene Padding zu Verschlüsseln/\+Entschlüsseln \begin{DoxyAuthor}{Author}
+Abdulkader Benni 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+17.\+05.\+20021 
+\end{DoxyVersion}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classedu_1_1junit5_1_1quickstart_1_1_a_e_s_encrypt_afe6d2fa06d8a65c3fd8b5a258a3fc3a6}\label{classedu_1_1junit5_1_1quickstart_1_1_a_e_s_encrypt_afe6d2fa06d8a65c3fd8b5a258a3fc3a6}} 
+\index{edu.junit5.quickstart.AESEncrypt@{edu.junit5.quickstart.AESEncrypt}!AESEncrypt@{AESEncrypt}}
+\index{AESEncrypt@{AESEncrypt}!edu.junit5.quickstart.AESEncrypt@{edu.junit5.quickstart.AESEncrypt}}
+\doxysubsubsection{\texorpdfstring{AESEncrypt()}{AESEncrypt()}}
+{\footnotesize\ttfamily edu.\+junit5.\+quickstart.\+AESEncrypt.\+AESEncrypt (\begin{DoxyParamCaption}\item[{String}]{block\+Mode,  }\item[{String}]{padding }\end{DoxyParamCaption})}
+
+Konstruktor fuer die Klasse \mbox{\hyperlink{classedu_1_1junit5_1_1quickstart_1_1_a_e_s_encrypt}{AESEncrypt}} 
+\begin{DoxyParams}{Parameters}
+{\em block\+Mode} & das block\+Mode der AES-\/\+Verschlüsslung \\
+\hline
+{\em padding} & das Padding von Daten vor der Verschlüsselung \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classedu_1_1junit5_1_1quickstart_1_1_a_e_s_encrypt_aeec493ec627ed5647b7b81ddd41ea8a9}\label{classedu_1_1junit5_1_1quickstart_1_1_a_e_s_encrypt_aeec493ec627ed5647b7b81ddd41ea8a9}} 
+\index{edu.junit5.quickstart.AESEncrypt@{edu.junit5.quickstart.AESEncrypt}!decodeUTF8@{decodeUTF8}}
+\index{decodeUTF8@{decodeUTF8}!edu.junit5.quickstart.AESEncrypt@{edu.junit5.quickstart.AESEncrypt}}
+\doxysubsubsection{\texorpdfstring{decodeUTF8()}{decodeUTF8()}}
+{\footnotesize\ttfamily String edu.\+junit5.\+quickstart.\+AESEncrypt.\+decode\+UTF8 (\begin{DoxyParamCaption}\item[{byte\mbox{[}$\,$\mbox{]}}]{bytes }\end{DoxyParamCaption})}
+
+Diese Methode Konvertieren ein byte-\/\+Array zu String in UTF8 
+\begin{DoxyParams}{Parameters}
+{\em bytes} & byte-\/\+Array \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+String in UTF8 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classedu_1_1junit5_1_1quickstart_1_1_a_e_s_encrypt_a4e9a542022db8c56e9bb3790b3ab7dd5}\label{classedu_1_1junit5_1_1quickstart_1_1_a_e_s_encrypt_a4e9a542022db8c56e9bb3790b3ab7dd5}} 
+\index{edu.junit5.quickstart.AESEncrypt@{edu.junit5.quickstart.AESEncrypt}!Decrypt@{Decrypt}}
+\index{Decrypt@{Decrypt}!edu.junit5.quickstart.AESEncrypt@{edu.junit5.quickstart.AESEncrypt}}
+\doxysubsubsection{\texorpdfstring{Decrypt()}{Decrypt()}}
+{\footnotesize\ttfamily byte \mbox{[}$\,$\mbox{]} edu.\+junit5.\+quickstart.\+AESEncrypt.\+Decrypt (\begin{DoxyParamCaption}\item[{byte\mbox{[}$\,$\mbox{]}}]{output,  }\item[{Secret\+Key}]{key }\end{DoxyParamCaption}) throws Exception}
+
+Diese Methode zu Entschlüsslung ein byte-\/\+Array(byte\mbox{[}\mbox{]}) 
+\begin{DoxyParams}{Parameters}
+{\em output} & der Verschlüsselter Text-\/\+String in byte\mbox{[}\mbox{]} \\
+\hline
+{\em key} & Secret\+Key der initialisierte Schlüssel \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+outputE der verschlüsselte Text 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classedu_1_1junit5_1_1quickstart_1_1_a_e_s_encrypt_aa0d3726e150e3cf3a7392502c601f2bf}\label{classedu_1_1junit5_1_1quickstart_1_1_a_e_s_encrypt_aa0d3726e150e3cf3a7392502c601f2bf}} 
+\index{edu.junit5.quickstart.AESEncrypt@{edu.junit5.quickstart.AESEncrypt}!encodeUTF8@{encodeUTF8}}
+\index{encodeUTF8@{encodeUTF8}!edu.junit5.quickstart.AESEncrypt@{edu.junit5.quickstart.AESEncrypt}}
+\doxysubsubsection{\texorpdfstring{encodeUTF8()}{encodeUTF8()}}
+{\footnotesize\ttfamily byte \mbox{[}$\,$\mbox{]} edu.\+junit5.\+quickstart.\+AESEncrypt.\+encode\+UTF8 (\begin{DoxyParamCaption}\item[{String}]{string }\end{DoxyParamCaption})}
+
+Diese Methode Konvertieren ein String zu byte-\/\+Array 
+\begin{DoxyParams}{Parameters}
+{\em string} & String in UTF8 \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bytes-\/\+Array 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classedu_1_1junit5_1_1quickstart_1_1_a_e_s_encrypt_a7feaf630d6d8d87d6c7581e9996ade3c}\label{classedu_1_1junit5_1_1quickstart_1_1_a_e_s_encrypt_a7feaf630d6d8d87d6c7581e9996ade3c}} 
+\index{edu.junit5.quickstart.AESEncrypt@{edu.junit5.quickstart.AESEncrypt}!Encrypt@{Encrypt}}
+\index{Encrypt@{Encrypt}!edu.junit5.quickstart.AESEncrypt@{edu.junit5.quickstart.AESEncrypt}}
+\doxysubsubsection{\texorpdfstring{Encrypt()}{Encrypt()}}
+{\footnotesize\ttfamily byte \mbox{[}$\,$\mbox{]} edu.\+junit5.\+quickstart.\+AESEncrypt.\+Encrypt (\begin{DoxyParamCaption}\item[{String}]{text,  }\item[{Secret\+Key}]{key }\end{DoxyParamCaption}) throws Exception}
+
+Diese Methode zu Verschlüsslung ein Text(\+String) mit AES-\/\+Verschlüsslungsverfahren und initialisiert ein IV wenn es benötigt wird das Blockmode und das Padding werden in Betracht gezogen 
+\begin{DoxyParams}{Parameters}
+{\em text} & der Text-\/\+String \\
+\hline
+{\em key} & Secret\+Key der initialisierte Schlüssel \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+output der verschlüsselte Text 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classedu_1_1junit5_1_1quickstart_1_1_a_e_s_encrypt_aa9a8481d8289aa084a75f2d22625f377}\label{classedu_1_1junit5_1_1quickstart_1_1_a_e_s_encrypt_aa9a8481d8289aa084a75f2d22625f377}} 
+\index{edu.junit5.quickstart.AESEncrypt@{edu.junit5.quickstart.AESEncrypt}!getCipher@{getCipher}}
+\index{getCipher@{getCipher}!edu.junit5.quickstart.AESEncrypt@{edu.junit5.quickstart.AESEncrypt}}
+\doxysubsubsection{\texorpdfstring{getCipher()}{getCipher()}}
+{\footnotesize\ttfamily Cipher edu.\+junit5.\+quickstart.\+AESEncrypt.\+get\+Cipher (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) throws No\+Such\+Padding\+Exception, No\+Such\+Algorithm\+Exception, No\+Such\+Provider\+Exception}
+
+Diese Methode initialisiert das Cipher object für AES-\/\+Verschlüsslungsverfahren,und BC als Provider dann liefert es zurueck. \begin{DoxyReturn}{Returns}
+cipher 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classedu_1_1junit5_1_1quickstart_1_1_a_e_s_encrypt_a2c25778f01c5dda7e5f271329f2337b3}\label{classedu_1_1junit5_1_1quickstart_1_1_a_e_s_encrypt_a2c25778f01c5dda7e5f271329f2337b3}} 
+\index{edu.junit5.quickstart.AESEncrypt@{edu.junit5.quickstart.AESEncrypt}!getKey@{getKey}}
+\index{getKey@{getKey}!edu.junit5.quickstart.AESEncrypt@{edu.junit5.quickstart.AESEncrypt}}
+\doxysubsubsection{\texorpdfstring{getKey()}{getKey()}}
+{\footnotesize\ttfamily Secret\+Key edu.\+junit5.\+quickstart.\+AESEncrypt.\+get\+Key (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) throws No\+Such\+Provider\+Exception, No\+Such\+Algorithm\+Exception}
+
+Diese Methode initialisiert das Key für AES-\/\+Verschlüsslungsverfahren,und BC als Provider dann liefert es zurueck. \begin{DoxyReturn}{Returns}
+key 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classedu_1_1junit5_1_1quickstart_1_1_a_e_s_encrypt_a2621f8ad465862eaab3eaf250cc3ae05}\label{classedu_1_1junit5_1_1quickstart_1_1_a_e_s_encrypt_a2621f8ad465862eaab3eaf250cc3ae05}} 
+\index{edu.junit5.quickstart.AESEncrypt@{edu.junit5.quickstart.AESEncrypt}!test@{test}}
+\index{test@{test}!edu.junit5.quickstart.AESEncrypt@{edu.junit5.quickstart.AESEncrypt}}
+\doxysubsubsection{\texorpdfstring{test()}{test()}}
+{\footnotesize\ttfamily void edu.\+junit5.\+quickstart.\+AESEncrypt.\+test (\begin{DoxyParamCaption}\item[{String}]{text }\end{DoxyParamCaption}) throws Exception}
+
+Diese Methode um das ganze Programm zu testen 
+\begin{DoxyParams}{Parameters}
+{\em text} & String \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classedu_1_1junit5_1_1quickstart_1_1_a_e_s_encrypt_a41bdd8f531b51b7854bc0db2deb5a82b}\label{classedu_1_1junit5_1_1quickstart_1_1_a_e_s_encrypt_a41bdd8f531b51b7854bc0db2deb5a82b}} 
+\index{edu.junit5.quickstart.AESEncrypt@{edu.junit5.quickstart.AESEncrypt}!toHex@{toHex}}
+\index{toHex@{toHex}!edu.junit5.quickstart.AESEncrypt@{edu.junit5.quickstart.AESEncrypt}}
+\doxysubsubsection{\texorpdfstring{toHex()}{toHex()}}
+{\footnotesize\ttfamily String edu.\+junit5.\+quickstart.\+AESEncrypt.\+to\+Hex (\begin{DoxyParamCaption}\item[{String}]{arg }\end{DoxyParamCaption})}
+
+Diese Methode Konvertieren ein String zu Hexadezimalzahl 
+\begin{DoxyParams}{Parameters}
+{\em arg} & String \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+String 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/edu/junit5/quickstart/AESEncrypt.\+java\end{DoxyCompactItemize}

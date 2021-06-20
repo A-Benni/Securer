@@ -1,0 +1,10 @@
+image: maven:3.6.3-jdk-14
+
+clean:
+  script: "mvn clean -B"
+
+compile:
+  script: "mvn compile -B"
+
+install:
+  script: "mvn install -B"
